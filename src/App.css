@@ -1,0 +1,246 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+img {
+  aspect-ratio: 1/1;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Start Home */
+.home {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+ 
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/header.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.welcome-text {
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: italic;
+  background: white;
+  padding: 30px;
+}
+
+.demo {
+  margin: 10px; /* Adjust margin as needed */
+  width: calc((100% - 100px) / 3);
+  height: auto;
+}
+.row-demo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid darkslateblue; /* Optional: adds a border */
+  border-radius: 25px; /* Rounded corners */
+  transition: box-shadow all 0.3s ease-in-out; /* Smooth hover effect */
+  width: 100%;
+  height:100%;
+
+}
+
+.body:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+}
+
+
+
+
+/* End Home */
+
+/* Start Supplement Table */
+.dashboard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dashboard > .container {
+  width: 100%;
+  height: 100%;
+  max-width: 1500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  width: 90%;
+  text-align: center;
+}
+
+
+
+td > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* End Supplement Table */
+
+/* Start Form */
+.form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.form > .container {
+  width: 100%;
+  height: 100%;
+  max-width: 1500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* End Form */
+/* start banner */
+.banner{
+  width: 100%;
+  height: 30vh;
+  background: url("./images/banner.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* end banner */
+/* start supplements */
+.supplements{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.supplements .container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+/* end supplements */
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  table {
+    width: 98%;
+  }
+
+  .header {
+    height: auto;
+    background-position: center;
+  }
+  .banner{
+    background-position: center;
+
+  }
+  .demo {
+
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  table {
+    width: 95%;
+  }
+
+  .header {
+    height: auto;
+    background-position: center;
+  }
+  .banner{
+    background-position: center;
+
+  }
+  .demo {
+
+    width: calc((100% - 50px) / 2); /* Adjust for 2 items */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  .banner{
+    background-position: center;
+
+  }
+}

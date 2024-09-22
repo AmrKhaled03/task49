@@ -1,0 +1,14 @@
+{
+    "emmet.preferences": {
+
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "cSpell.words": [
+        "describedby",
+        "Khaled",
+        "Marey",
+        "toastify"
+    ]
+}
